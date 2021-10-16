@@ -1,4 +1,4 @@
-Install Docker on Ubuntu:
+Install Docker on Ubuntu =>
 
 	sudo su -
 	sudo apt-get remove docker docker-engine docker.io containerd runc
@@ -9,7 +9,7 @@ Install Docker on Ubuntu:
 	sudo apt-get update
 	sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
-Test the installation by running a simple container:
+check the installation by running a simple container:
         docker run hello-world
 
 	## FYI Only ## Check Available Version for Install"
